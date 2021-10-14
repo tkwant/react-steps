@@ -12,8 +12,8 @@ if(IS_BUILD_DEMO){
   buildConfig= {
     lib: {
       entry: path.resolve(__dirname, 'src/Stepper.tsx'),
-      name: 'React-Stepper',
-      fileName: (format) => `react-stepper.${format}.js`
+      name: 'react-steps',
+      fileName: (format) => `react-steps.${format}.js`
     },
     rollupOptions: {
       external: ['react'],

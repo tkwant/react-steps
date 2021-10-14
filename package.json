@@ -1,5 +1,5 @@
 {
-  "name": "react-stepper",
+  "name": "react-steps",
   "version": "0.0.0",
   "keywords": [
     "react",
@@ -9,21 +9,22 @@
     "react",
     "stepper",
     "react",
-    "step"
+    "step",
+    "steps"
   ],
   "author": "Tobias Kwant",
   "license": "MIT",
-  "main": "./dist/react-stepper.umd.js",
-  "module": "./dist/react-stepper.es.js",
+  "main": "./dist/react-steps.umd.js",
+  "module": "./dist/react-steps.es.js",
   "files": [
-    "dist/react-stepper.es.js",
-    "dist/react-stepper.umd.js",
+    "dist/react-steps.es.js",
+    "dist/react-steps.umd.js",
     "README.md"
   ],
   "exports": {
     ".": {
-      "import": "./dist/react-stepper.es.js",
-      "require": "./dist/react-stepper.umd.js"
+      "import": "./dist/react-steps.es.js",
+      "require": "./dist/react-steps.umd.js"
     }
   },
   "scripts": {
