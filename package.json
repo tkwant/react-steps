@@ -1,10 +1,9 @@
 {
-  "name": "react-steps",
-  "version": "0.0.0",
+  "name": "@tkwant/react-steps",
+  "version": "0.0.1",
   "keywords": [
     "react",
     "multistep",
-    "react",
     "wizard",
     "react",
     "stepper",
@@ -14,22 +13,14 @@
   ],
   "author": "Tobias Kwant",
   "license": "MIT",
-  "main": "./dist/react-steps.umd.js",
-  "module": "./dist/react-steps.es.js",
+  "main": "./dist/Stepper.js",
   "files": [
-    "dist/react-steps.es.js",
-    "dist/react-steps.umd.js",
+    "dist",
     "README.md"
   ],
-  "exports": {
-    ".": {
-      "import": "./dist/react-steps.es.js",
-      "require": "./dist/react-steps.umd.js"
-    }
-  },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsup src/Stepper/Stepper.tsx --legacy-output --dts --sourcemap --minify",
     "build-demo": "tsc && BUILD_DEMO=1 vite build --mode demo",
     "serve": "vite preview"
   },
@@ -43,10 +34,12 @@
     "@types/react-dom": "^17.0.0",
     "@types/react-router-dom": "^5.1.7",
     "@vitejs/plugin-react-refresh": "^1.3.1",
-    "autoprefixer": "^10.3.3",
+    "autoprefixer": "^10.3.7",
     "postcss": "^8.3.6",
     "tailwindcss": "^2.2.9",
+    "tsup": "^5.4.0",
     "typescript": "^4.3.2",
-    "vite": "^2.5.1"
+    "vite": "^2.5.1",
+    "vite-plugin-dts": "^0.8.3"
   }
 }
