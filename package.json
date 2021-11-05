@@ -13,6 +13,10 @@
   ],
   "author": "Tobias Kwant",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tkwant/react-steps"
+  },
   "main": "./dist/Stepper.js",
   "files": [
     "dist",
