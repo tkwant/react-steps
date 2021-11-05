@@ -6,7 +6,17 @@ https://www.npmjs.com/package/@tkwant/react-steps
 Demo:
 https://stepper.tkwant.de
 
-![image](https://github.com/tkwant/react-steps/raw/master/image.png)
+![image](https://github.com/tkwant/react-steps/blob/main/image.png)
+
+## Installation
+
+```
+yarn add @tkwant/react-steps
+```
+
+```
+npm i @tkwant/react-steps
+```
 
 ## Usage
 
