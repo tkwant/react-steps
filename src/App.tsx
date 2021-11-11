@@ -7,13 +7,17 @@ const App: React.FC<Props> = () => {
   const renderContent = () => {
     switch (curStep) {
       case 0:
-        return <div className="flex justify-center mt-3">First Step</div>;
+        return (
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            First Step
+          </div>
+        );
       case 1:
         return (
-          <div className="flex justify-center mt-3">
-            <p className="mr-2">My Validation: </p>
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <p style={{ marginRight: 2 }}>My Validation: </p>
             <input
-              className="border-4 border-red-300"
+              style={{ border: "2px solid red" }}
               onChange={(e) => setStep2Data(e.currentTarget.value)}
               value={step2Data}
             />
@@ -26,7 +30,11 @@ const App: React.FC<Props> = () => {
 
   return (
     <>
-      <Stepper curStep={curStep} setCurStep={setCurStep}>
+      <Stepper
+        style={{ padding: 10 }}
+        curStep={curStep}
+        setCurStep={setCurStep}
+      >
         <Step label="Step 0 " />
         <Step label="Step 1" />
         <Step locked={step2Data === ""}>??</Step>

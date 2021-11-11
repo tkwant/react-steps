@@ -14,6 +14,7 @@ interface StepperProps {
   progressBarActiveColor?: string;
   progressBarBackgroundColor?: string;
   smallScreenShowProgressbar?: boolean;
+  style?: React.CSSProperties;
 }
 
 export const Stepper: React.FC<StepperProps> = ({
@@ -27,6 +28,7 @@ export const Stepper: React.FC<StepperProps> = ({
   progressBarActiveColor,
   progressBarBackgroundColor,
   smallScreenShowProgressbar,
+  style,
 }) => {
   const elements: any = [];
   const isFirst = curStep == 0;
@@ -85,7 +87,9 @@ export const Stepper: React.FC<StepperProps> = ({
         </div>
       )}
 
-      <ul className="flex flex-row justify-between mx-3">{elements}</ul>
+      <ul style={style} className="flex flex-row justify-between mx-3">
+        {elements}
+      </ul>
     </>
   );
 };
