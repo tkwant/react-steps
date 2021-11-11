@@ -108,4 +108,5 @@ Stepper.defaultProps = {
   inActiveColor: "#D1D5DB",
   stepSize: 60,
   className: "",
+  style: {},
 };

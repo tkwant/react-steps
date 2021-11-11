@@ -78,25 +78,25 @@ export default App;
 
 ## Stepper Props
 
-| Prop                       | Description |
-| -------------------------- | ----------- |
+| Prop                       | Description | Default     |
+| -------------------------- | ----------- | ----------- |
 | children                   |             |
 | curStep                    |             |
 | setCurStep                 |             |
-| className                  |             |
-| activeColor                | optional    |
-| inActiveColor              | optional    |
-| borderColor                | optional    |
-| stepSize                   | optional    |
-| progressBarActiveColor     | optional    |
-| progressBarBackgroundColor | optional    |
-| smallScreenShowProgressbar | optional    |
-| style                      | optional    |
+| className                  | optional    | ""          |
+| activeColor                | optional    | "#0b294b"   |
+| inActiveColor              | optional    | "#D1D5DB"   |
+| borderColor                | optional    | "#8fb3db"   |
+| stepSize                   | optional    | 60          |
+| progressBarActiveColor     | optional    | "green"     |
+| progressBarBackgroundColor | optional    | "lightgray" |
+| smallScreenShowProgressbar | optional    | true        |
+| style                      | optional    | {}          |
 
 ## Step Props
 
-| Prop     | Description |
-| -------- | ----------- |
-| children | optional    |
-| label    | optional    |
-| locked   | optional    |
+| Prop     | Description | Default       |
+| -------- | ----------- | ------------- |
+| children | optional    | current Index |
+| label    | optional    | ""            |
+| locked   | optional    | false         |
