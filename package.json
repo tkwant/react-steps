@@ -1,15 +1,17 @@
 {
   "name": "@tkwant/react-steps",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "keywords": [
     "react",
+    "mobile-stepper",
     "multistep",
     "wizard",
     "react",
     "stepper",
     "react",
     "step",
-    "steps"
+    "steps",
+    "mobile-friendly"
   ],
   "author": "Tobias Kwant",
   "license": "MIT",
