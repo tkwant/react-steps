@@ -1,6 +1,6 @@
 # React Stepper
 
-Works also for mobile devices
+React Stepper which can also be used on mobile devices
 
 Npm Package:
 https://www.npmjs.com/package/@tkwant/react-steps
