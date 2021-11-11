@@ -1,5 +1,9 @@
-@import 'tailwindcss/base';
+@import "tailwindcss/base";
 
-@import 'tailwindcss/components';
+@import "tailwindcss/components";
 
-@import 'tailwindcss/utilities';
+@import "tailwindcss/utilities";
+
+div {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}

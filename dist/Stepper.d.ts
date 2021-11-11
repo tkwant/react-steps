@@ -24,6 +24,9 @@ interface StepperProps {
     inActiveColor?: string;
     borderColor?: string;
     stepSize?: number;
+    progressBarActiveColor?: string;
+    progressBarBackgroundColor?: string;
+    smallScreenShowProgressbar?: boolean;
 }
 declare const Stepper: React.FC<StepperProps>;
 
