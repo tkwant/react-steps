@@ -1,7 +1,7 @@
 import React from "react";
 import Connector from "./Connector";
 import Lock from "./Lock";
-interface StepProps {
+export interface StepProps {
   isLast?: boolean;
   className?: string;
   index?: number;

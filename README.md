@@ -24,7 +24,7 @@ npm i @tkwant/react-steps
 
 ```
 import React, { useState } from "react";
-import { Stepper, Step } from "./Stepper/Stepper";
+import { Stepper, Step } from "@tkwant/react-steps";
 interface Props {}
 const App: React.FC<Props> = () => {
   const [curStep, setCurStep] = useState(0);

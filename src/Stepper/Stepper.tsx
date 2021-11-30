@@ -3,7 +3,7 @@ import "./index.css";
 import { Size, useWindowSize } from "../hooks/useWindowSize";
 export { Step } from "./Step";
 
-interface StepperProps {
+export interface StepperProps {
   children: ReactElement[];
   curStep: number;
   setCurStep: (index: number) => void;
