@@ -20,6 +20,7 @@ interface StepperProps {
     children: ReactElement[];
     curStep: number;
     setCurStep: (index: number) => void;
+    className?: string;
     activeColor?: string;
     inActiveColor?: string;
     borderColor?: string;
@@ -27,7 +28,8 @@ interface StepperProps {
     progressBarActiveColor?: string;
     progressBarBackgroundColor?: string;
     smallScreenShowProgressbar?: boolean;
+    style?: React.CSSProperties;
 }
 declare const Stepper: React.FC<StepperProps>;
 
-export { Step, Stepper };
+export { Step, Stepper, StepperProps };
