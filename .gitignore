@@ -4,3 +4,4 @@ dist-demo
 dist-ssr
 *.local
 yarn.lock
+yarn-error.log
